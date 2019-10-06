@@ -1,0 +1,18 @@
+.titlewrapper {
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+
+  display: inline-block;
+  background-image: linear-gradient(to right, #cb322b, #481e20);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}

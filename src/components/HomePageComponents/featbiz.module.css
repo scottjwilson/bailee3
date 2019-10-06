@@ -1,0 +1,42 @@
+.businesses {
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 978px) {
+}
+
+.centerbutton {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.btnwrapper {
+  margin: 3rem 0 0 0;
+}
+
+.btnprimary {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: #cb322b;
+  border: 2px solid #cb322b;
+  padding: 0.9rem 1.6rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.btnprimary:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}

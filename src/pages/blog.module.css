@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+  max-height: 400px;
+
+  overflow: hidden;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #481e20 0%, #cb322b 100%) center/cover
+    fixed no-repeat;
+  color: #fff;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: inline-block;
+  background-image: linear-gradient(to right, #cb322b, #481e20);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
+
+.articleList {
+  list-style: none;
+  padding: 0;
+}
+
+.articleItem {
+}

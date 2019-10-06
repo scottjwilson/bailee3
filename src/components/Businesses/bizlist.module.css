@@ -1,0 +1,41 @@
+.businesses {
+  padding: 2rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.center {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 978px) {
+}
+
+.centerbutton {
+  width: 300px;
+  margin: 0 auto;
+}
+.btnprimary {
+  margin: 0 auto;
+  background: linear-gradient(to right, #481e20 0%, #cb322b 100%);
+  color: #fffdff;
+  border: linear-gradient(to right, #481e20 0%, #cb322b 100%);
+  padding: 1rem 0;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 0.3rem;
+}
+
+.btnprimary:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}

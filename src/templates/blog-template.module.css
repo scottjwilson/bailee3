@@ -1,0 +1,75 @@
+.socialbar {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2rem 0 0 1rem;
+  position: fixed;
+}
+
+@media only screen and (min-width: 600px) {
+  .socialbar {
+    margin: 2rem 0 0 2rem;
+  }
+}
+.social {
+  padding-bottom: 2rem;
+}
+.blog {
+  padding: 4rem 0;
+}
+.center {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.blog h1 {
+  font-size: 2rem;
+  background-image: linear-gradient(to right, #cb322b, #481e20);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.blog h4 {
+  text-transform: uppercase;
+}
+.post {
+  margin: 2rem 0;
+  line-height: 2rem;
+  word-spacing: 0.2rem;
+}
+.post img {
+  max-width: 70vw;
+}
+
+.rich {
+  background: red;
+}
+
+.blogtitle {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.btnwrapper {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btnprimary {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: #cb322b;
+  border: 2px solid #cb322b;
+  padding: 0.9rem 1.6rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.btnprimary:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
