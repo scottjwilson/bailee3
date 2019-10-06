@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import styled from 'styled-components'
 
 
-import SEO from '../components/SEO'
+import SEO from '../components/SEO1'
 
 const privacy = () => {
   return (

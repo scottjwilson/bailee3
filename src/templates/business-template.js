@@ -1,11 +1,11 @@
-import React from 'react'
-import Layout from '../components/layout'
-import Hero from '../components/hero'
-import Img from 'gatsby-image'
-import { FaMap } from 'react-icons/fa'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
-import businesstemplate from './businesstemplate.module.css'
-import SEO from '../components/SEO'
+import React from "react"
+import Layout from "../components/layout"
+import Hero from "../components/hero"
+import Img from "gatsby-image"
+import { FaMap } from "react-icons/fa"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import businesstemplate from "./businesstemplate.module.css"
+import SEO from "../components/SEO1"
 
 const Template = ({ data }) => {
   const { name, description, link, location, category, images } = data.biz

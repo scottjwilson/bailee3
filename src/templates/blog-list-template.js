@@ -1,12 +1,12 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Layout from '../components/layout'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
-import styles from './blog-list-template.module.css'
-import BlogCard from '../components/Blog/BlogCard'
-import BlogHero from '../components/bloghero'
-import { Title } from '../utils/Title'
-import SEO from '../components/SEO'
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import styles from "./blog-list-template.module.css"
+import BlogCard from "../components/Blog/BlogCard"
+import BlogHero from "../components/bloghero"
+import { Title } from "../utils/Title"
+import SEO from "../components/SEO1"
 
 const Blog = props => {
   const { currentPage, numPages } = props.pageContext
@@ -42,7 +42,7 @@ const Blog = props => {
               <AniLink
                 key={i}
                 fade
-                to={`/blogs/${i === 0 ? '' : i + 1}`}
+                to={`/blogs/${i === 0 ? "" : i + 1}`}
                 className={
                   i + 1 === currentPage
                     ? `${styles.link} ${styles.active}`

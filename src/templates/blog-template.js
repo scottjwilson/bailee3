@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import blogstyle from "./blog-template.module.css"
-import SEO from "../components/SEO"
+import SEO from "../components/SEO1"
 import { DiscussionEmbed } from "disqus-react"
 
 import {
