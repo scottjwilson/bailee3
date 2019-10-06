@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 import Businesses from "../components/Businesses/Businesses"
