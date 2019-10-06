@@ -1,9 +1,9 @@
-import React from 'react'
-import Layout from '../components/layout'
-import Hero from '../components/hero'
-import { graphql } from 'gatsby'
-import BlogList from '../components/Blog/BlogList'
-import SEO from '../components/SEO'
+import React from "react"
+import Layout from "../components/layout"
+import Hero from "../components/hero"
+import { graphql } from "gatsby"
+import BlogList from "../components/Blog/BlogList"
+import SEO from "../components/SEO1"
 
 const blog = ({ data }) => {
   return (
