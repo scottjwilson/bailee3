@@ -10,7 +10,7 @@
   transition: var(--mainTransition);
 }
 .closeSidebar {
-  transform: translateX(-100%);
+  transform: translateX(100%);
   opacity: 0;
   z-index: 0;
 }
@@ -28,8 +28,10 @@
   display: inline-block;
   text-transform: capitalize;
   font-size: 1.1rem;
-  display: flex;
-  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
   transition: var(--mainTransition);
   cursor: pointer;
   color: var(--mainBlack);

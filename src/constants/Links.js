@@ -6,13 +6,23 @@ export default [
   },
   {
     id: Math.random(),
-    text: "courses",
-    url: "/courses",
+    text: "businesses",
+    url: "/businesses",
   },
   {
     id: Math.random(),
-    text: "about",
-    url: "/about",
+    text: "blogs",
+    url: "/blogs",
+  },
+  {
+    id: Math.random(),
+    text: "faq",
+    url: "/blog/faq",
+  },
+  {
+    id: Math.random(),
+    text: "meet the team",
+    url: "/team",
   },
   {
     id: Math.random(),

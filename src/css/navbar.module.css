@@ -44,13 +44,16 @@
   border: none;
   text-transform: capitalize;
   font-size: 1.1rem;
-  display: flex;
-  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
   transition: var(--mainTransition);
   cursor: pointer;
   color: var(--mainBlack);
   outline-color: var(--primaryColor);
   background: transparent;
+  z-index: 2;
 }
 .toggleIcon {
   margin-left: 0.5rem;
