@@ -4,6 +4,8 @@ import styles from "../css/sidebar.module.css"
 import { FaTimes } from "react-icons/fa"
 import links from "../constants/Links"
 import { Link } from "gatsby"
+import Image from "./Image"
+
 const Sidebar = () => {
   const { isSidebarOpen, handleCloseSidebar, height } = React.useContext(
     AppContext
